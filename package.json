@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "create a basic react application from scratch leveraging webpack",
   "main": "index.js",
-  "proxy": "http://localhost:3000",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",

@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/test', (req, res, next) => {
-    res.send("Hello")
+    res.send({ data: "Hello"})
 })
 
 // Serve the files on port 3000.
